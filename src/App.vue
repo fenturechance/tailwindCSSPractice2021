@@ -1,20 +1,12 @@
 <template>
   <div class="home">
-    <div class="bg-white dark:bg-black h-48">
-      <button @click="changeMode">change</button>
-    </div>
+    <h1>我是大標題</h1>
+    <h2>我是小標題</h2>
+    <button class="btn-blue">按鈕2</button>
   </div>
 </template>
 
 <script>
 export default {
-  setup() {
-    const changeMode = () => {
-      document.documentElement.classList.add('dark')
-    }
-    return {
-      changeMode
-    }
-  }
 }
 </script>
